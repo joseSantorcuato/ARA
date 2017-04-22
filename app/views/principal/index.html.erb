@@ -1,0 +1,62 @@
+<head>
+   <title>Read</title>
+   <%= csrf_meta_tags %>
+   <%= stylesheet_link_tag    'application', media: 'all',
+                                             'data-turbolinks-track': 'reload' %>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+   <!--[if lt IE 9]>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+     </script>
+   <![endif]-->
+
+ </head>
+
+  <body>
+
+
+
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1><strong>IRA</strong></h1>
+        <p>Inicio Aplicación Rails </p>
+      </div>
+
+
+      <hr>
+
+      <h3>Inicio</h3>
+      <p></p>
+
+
+              <div class="row">
+                <div class="col-xs-4 col-sm-4 centrado "><%= link_to '',   'index', class: "fa fa-home fa-lg" %></div>
+                <div class="col-xs-4 col-sm-4 centrado"><%= link_to '',   'play', class: "fa fa-play-circle-o fa-lg" %></div>
+                <div class="col-xs-4 col-sm-4 centrado"><%= link_to '',   'read', class: "fa fa-sliders fa-lg" %></div>
+
+
+
+
+          </div>
+        </br>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 centrado "><%= image_tag("notebook.jpg", :class => "img-responsive") %></div>
+
+
+
+        </div>
+
+    </div> <!-- /container -->
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,59 @@
+// Place all the styles related to the principal controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+
+body{
+
+  background-color: #fff;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+a:hover {
+
+    color : black;
+}
+a{
+
+    color : black;
+}
+
+.titulo{
+
+background-color: rgba(0, 0, 0, 0.3);
+color: white;
+
+height: 50px;
+}
+
+.titulob{
+
+
+color: #77a5a5;
+
+height: 50px;
+}
+.centrado{
+
+text-align: center;
+color : #77a5a5;
+}
+
+.centradonegro{
+
+background-color: rgba(0, 0, 0, 0.3);
+color: white;
+text-align: center;
+height: 300px;
+}
